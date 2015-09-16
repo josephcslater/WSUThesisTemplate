@@ -1,12 +1,7 @@
-# WSU Thesis Template
+#Wright State University LaTeX Thesis/Dissertation style file
 This repository contains a set of files for LaTeX users writing thesis or dissertations at *Wright State University*. There are a number of other WSUs. I apologize.
 
 The LaTeX file itself should be self-documenting, so the user is left to their own to edit it and modify it with the contents of their thesis/dissertation. There is a bit of demoing of LaTeX that happens in the document, but no claims are made that it is sufficient to teach LaTeX.
-
-
-
-## WSU LaTeX Thesis/Dissertation style file
-
 
 Use this and you will have a consistent document that meets Wright State University
 guidelines. Don’t add your own formatting. Use only *structure* commands. For instance, *\emph* instead of *\textit*. 
