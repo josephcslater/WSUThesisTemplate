@@ -1,4 +1,4 @@
-#Wright State University LaTeX thesis/dissertation style file
+# Wright State University LaTeX thesis/dissertation style file
 This repository contains a set of files for LaTeX users writing thesis or dissertations at *Wright State University*. There are a number of other WSUs. I apologize.
 
 The LaTeX file itself should be self-documenting, so the user is left to their own to edit it and modify it with the contents of their thesis/dissertation. There is a bit of demoing of LaTeX that happens in the document, but no claims are made that it is sufficient to teach LaTeX.
@@ -13,8 +13,8 @@ and this template may actually be good enough, however no warrantee is
 expressed or implied. Things change, and the template will likely have to be continuously updated.
 
 
-Theses/Dissertations using LaTeX
-================================
+## Theses/Dissertations using LaTeX
+
 
 LaTeX is hands down the best tool to use when writing your thesis or
 dissertation. Instead of arguing the point, let me make a simple
@@ -36,8 +36,8 @@ useless. If you want to save is for potential future use, read my
 document on [archiving your data]. It’s not a great document, but it’s
 the best I’ve got.
 
-Plotting (even if you’re not using LaTeX)
-\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~
+## Plotting (even if you’re not using LaTeX)
+
 
 Making quality looking plots can be a challenge. Most graphics don’t
 have fonts and/or font sizes that match the text, or they are all fuzzy,
@@ -79,8 +79,9 @@ the latest documents. Send me the new file and I’ll post it.
 -   [For Mac Users]
 -   [Windows users links]
 
-Windows Users
-=============
+## Platform specific advice
+### Windows Users
+
 
 My current recommendations are to use:
 
@@ -101,8 +102,11 @@ My current recommendations are to use:
 
 Go to [TeX on Windows] for links.
 
-Graphical User Interface (GUI) Version
-======================================
+### Mac Users
+Look at the [TeX on Mac Wiki] and at [MacTeX].
+
+## Graphical User Interface (GUI) Version
+
 
 [LyX] is something like a GUI version that is easier for a novice to
 work on, but can be somewhat limiting for someone comfortable with more
@@ -168,4 +172,5 @@ The package includes a presentation template which you may choose to use.
   [the one at Duke]: http://www.duke.edu/~hpgavin/gnuplot.html
   [python]: http://www.python.org
   [matplotlib]: http://matplotlib.org
-
+  [TeX on Mac Wiki]: http://mactex-wiki.tug.org
+  [MacTeX]: https://tug.org/mactex/
