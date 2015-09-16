@@ -5,8 +5,8 @@ The LaTeX file itself should be self-documenting, so the user is left to their o
 
 
 
-WSU LaTeX Thesis/Dissertation style file
-========================================
+## WSU LaTeX Thesis/Dissertation style file
+
 
 Use this and you will have a consistent document that meets Wright State University
 guidelines. Don’t add your own formatting. Use only *structure* commands. For instance, *\emph* instead of *\textit*. 
@@ -17,8 +17,8 @@ Every effort has been made to meet the Wright State University School of Graduat
 and this template may actually be good enough, however no warrantee is
 expressed or implied. Things change, and the template will likely have to be continuously updated.
 
-Some Basic Introductions to LaTeX
-=================================
+## Some Basic Introductions to LaTeX
+
 
 These are, or will be, out of date, but are a good start in learning
 LaTeX. Pick and choose as you need. Get the more updated documents from
