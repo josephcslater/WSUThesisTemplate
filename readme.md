@@ -1,4 +1,4 @@
-#Wright State University LaTeX Thesis/Dissertation style file
+#Wright State University LaTeX thesis/dissertation style file
 This repository contains a set of files for LaTeX users writing thesis or dissertations at *Wright State University*. There are a number of other WSUs. I apologize.
 
 The LaTeX file itself should be self-documenting, so the user is left to their own to edit it and modify it with the contents of their thesis/dissertation. There is a bit of demoing of LaTeX that happens in the document, but no claims are made that it is sufficient to teach LaTeX.
