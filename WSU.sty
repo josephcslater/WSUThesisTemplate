@@ -36,6 +36,7 @@
 #1% expand defined
   }%
 }
+\newcommand{\thesisordissertation}{\uppercase{\thesisordissertationlc}}% 'Thesis' or 'Dissertation'
 
 % \newcommand[1]{\checkfor}{
 %   \ifthenelse{\isundefined{#1}}{%
@@ -123,7 +124,7 @@
 \end{flushright}
 
 \renewcommand\baselinestretch{1}
-    I HEREBY RECOMMEND THAT THE THESIS PREPARED UNDER MY                 
+    I HEREBY RECOMMEND THAT THE \MakeUppercase{\thesisordissertation} PREPARED UNDER MY                 
     SUPERVISION BY \expandafter\expandafter\expandafter\uline\expandafter{\authorfull} 
     ENTITLED \expandafter\expandafter\expandafter\uline\expandafter{\thesistitle}                
     BE ACCEPTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS
