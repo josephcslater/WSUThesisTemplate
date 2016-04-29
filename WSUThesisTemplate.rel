@@ -1,0 +1,102 @@
+;; RefTeX parse info file
+;; File: /Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex
+;; User: jslater (Joseph C. Slater)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi t)
+
+(bibview-cache)
+
+(master-dir . "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/")
+
+(label-numbers)
+
+(bof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex")
+
+(toc "toc" "  1 In The Beginning" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 1 "1" "\\chapter{In The Beginning}" 7184)
+
+(toc "toc" "    1.1 Citations, using them, referring to them, formatting them, and loving using them because if you don'" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 2 "1.1" "\\section[Citations/References (short form of section name)]{Citations, using them, referring to them, formatting them, and loving using them because if you don't use them when appropriate it's called \\emph{plagi" 7878)
+
+(toc "toc" "      1.1.1 About the Bibliography" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 3 "1.1.1" "\\subsection{About the Bibliography}" 9982)
+
+(toc "toc" "      1.1.2 Equations" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 3 "1.1.2" "\\subsection{Equations}" 11051)
+
+("sec:equations" "s" "%============================= \\begin{equation} %You can name the label anything you want, just not " "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("eq:alphaoverbeta" "e" "%You can name the label anything you want, just not the same as something else x=\\frac{\\alpha}{\\beta" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("eq:damping_mat" "e" "C_{da} =[U_n^T]^{-1} \\left[ \\begin{array}{ccc} a&b&c" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("eq:anothersillyequation" "e" "x\\neq y " "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("eq:anothersillyequation2" "e" "x\\neq y " "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+(toc "toc" "    1.2 Figures" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 2 "1.2" "\\section{Figures}" 13275)
+
+("fig:example" "f" "Example caption." "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:example2" "f" "Short Figure Caption" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+(toc "toc" "    1.3 Sub-figures" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 2 "1.3" "\\section{Sub-figures}" 15162)
+
+("fig:example_a" "f" "First sub-figure" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:example_b" "f" "Second sub-figure" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:1x2_subfigs" "f" "Side-by-side sub-figures." "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:example_2x2a" "f" "First sub-figure" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:example_2x2b" "f" "Second sub-figure" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:example_2x2c" "f" "Third sub-figure" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:example_2x2d" "f" "Fourth sub-figure" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+("fig:2x2_subfigs" "f" "2x2 sub-figures." "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+(toc "toc" "    1.4 Including Chapters or Files" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 2 "1.4" "\\section{Including Chapters or Files}" 17132)
+
+(bof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/table_bench_tests.tex")
+
+("tab:bench_test_matrix" "t" "Complete test matrix of waveforms for experimental bench test" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/table_bench_tests.tex" nil)
+
+(eof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/table_bench_tests.tex")
+
+(toc "toc" "  2 Typesetting Programs using \\LaTeX\\ " "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 1 "2" "\\chapter[Programs]{Typesetting Programs using \\LaTeX\\ }" 18438)
+
+(toc "toc" "    2.1 Windows" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 2 "2.1" "\\section{Windows}" 18525)
+
+(toc "toc" "    2.2 Mac OS" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 2 "2.2" "\\section{Mac OS}" 19063)
+
+(toc "toc" "    2.3 References" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil 2 "2.3" "\\section{References}" 19378)
+
+("sec:refs" "s" "\\begin{itemize} " "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex" nil)
+
+(bof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixA.tex")
+
+(toc "toc" "  3 Appendix A" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixA.tex" nil 1 "3" "\\chapter[An Example Appendix]{Appendix A\\\\An Example}" 1)
+
+("chap:AppA" "s" "Here is an appendix\\ldots not too difficult." "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixA.tex" nil)
+
+(eof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixA.tex")
+
+(bof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixB.tex")
+
+(toc "toc" "  4 Appendix B" "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixB.tex" nil 1 "4" "\\chapter[Another Example Appendix]{Appendix B\\\\Another Example}" 1)
+
+("chap:AppB" "s" "Again\\ldots not too difficult." "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixB.tex" nil)
+
+(eof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/AppendixB.tex")
+
+(bib "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/thesisBIB.bib")
+
+(eof "/Users/jslater/Documents/CourseMaterial/WSUThesisTemplate/WSUThesisTemplate.tex")
+))
+
