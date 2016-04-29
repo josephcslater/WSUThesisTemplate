@@ -1,13 +1,14 @@
 %-----------------------------------------------------------------------
-% Latex Thesis Template for Wright State University
+% Latex Thesis/Dissertation Template for Wright State University
 % 
 % Written by Sean A. Mortara
 % 28 June 2001
 % Modified by Josh Mark
 % 15 Dec 2011
+% Later edits by Joseph C. Slater
 %-----------------------------------------------------------------------
 \documentclass[12pt]{report}
-\usepackage{WSU}
+
 \usepackage{xcolor}
 \usepackage{booktabs} % used for tables
 \usepackage{multirow} % used for tables to merge multiple rows
@@ -20,7 +21,8 @@
 %
 %
 
-\begin{document}
+
+
 %-----------------------------------------------------------------------
 %  Modified fields
 %-----------------------------------------------------------------------
@@ -29,6 +31,7 @@
 \newcommand{\authorlast}{Goode}
 \newcommand{\degreefull}{Mas\-ter of Sci\-ence in En\-gi\-neer\-ing}  % force hyphenation at syllables if line breaks are required
 \newcommand{\degreeshort}{M.S.Egr.}
+\newcommand{\thesisordissertation}{Thesis}% 'Thesis' or 'Dissertation'
 \newcommand{\dept}{Department of Mechanical and Materials Engineering}
 \newcommand{\institution}{Wright State University}
 \newcommand{\thesistitle}{Some Really Great Title That Provides a Concise View of the Topic Your Thesis Will Address}
@@ -40,12 +43,8 @@
 \newcommand{\pdfkeywords}{keyword 1, keyword 2, keyword 3, keyword 4}
 \newcommand{\yearcomplete}{2013}
 % set pdf file info
-\hypersetup{
-                     pdfauthor={\authorfull},
-                     pdftitle={\thesistitle},
-                     pdfsubject={\pdfsubject},
-                     pdfkeywords={\pdfkeywords},
-                     }
+\usepackage{hyperxmp} % used to set pdf property info with \hypersetup command
+
 %-----------------------------------------------------------------------
 %  Thesis Advisor, Department Chair, Dean of Graduate Studies
 %-----------------------------------------------------------------------
@@ -54,7 +53,8 @@
 \newcommand{\deptchair}{Al Yankovic, Ph.D., P.E., M.D.}
 \newcommand{\deptchairtitle}{Ph.D., P.E.}
 \newcommand{\dean}{Dean, School of Graduate Studies}
-\newcommand{\deantitle}{Ph.D., MD, MSE, MOUSE}
+\newcommand{\deantitle}{Ph.D., MD, MSE, MOUSE}% MOUSE is a reference
+                                % old people understand
 %-----------------------------------------------------------------------
 %  Final Examination Committee
 %-----------------------------------------------------------------------
@@ -79,13 +79,24 @@
 %
 %Don't touch
 
-  \normalem
+
+%still don't touch.   
+
+%title sheet
+\usepackage{WSU}
+\hypersetup{
+                     pdfauthor={\authorfull},
+                     pdftitle={\thesistitle},
+                     pdfsubject={\pdfsubject},
+                     pdfkeywords={\pdfkeywords},
+                     }
+  %\normalem
   \pagenumbering{roman}
   \pagestyle{plain}
   \rhead{\today}
+\begin{document}
  \maketitle
 \doublespace
-%still don't touch.   
 
 %=============================
 %  approval sheet

@@ -49,7 +49,7 @@
 \newcommand{\authorfull}{\authorfirst\ \authorMI\authorlast}
 \newcommand{\bachfull}{\bachdegreeshort, \bachinstitution, \bachyear}  % creates Bachelor information under name on title page
 %\newcommand{\degreefullall}{\degreefull\ in En\-gi\-neer\-ing}  % added forced hyphenation (automatic hyphenation disabled for \uline)
-\usepackage{hyperxmp} % used to set pdf property info with \hypersetup command
+
 %-----------------------------------------------------------------------
 %  Page format setup
 %-----------------------------------------------------------------------
@@ -68,7 +68,7 @@
 
 \author{           A thesis submitted in partial fulfillment          \\
                      of the requirements for the degree of            \\
-                        Master of Science in Engineering              \\
+                        \degreefull              \\
 \\ \\ \\
                                        by                             \\
 \\ \\ \\
@@ -85,7 +85,7 @@
 \newcommand{\signaturepage}{%
 \begin{center}
               \uppercase{\institution}\\
-              SCHOOL OF GRADUATE STUDIES\\
+              COLLEGE OF GRADUATE STUDIES\\
 \end{center}
 
 \begin{flushright}
@@ -105,12 +105,12 @@
 \vspace{1.2cm}
   \rule{3in}{0.01in}
   \\                     \thesisdirector
-  \\                      Thesis Director
+  \\                      \thesisordissertation\ Director
   \\
   \vspace{1.2cm}
   \rule{3in}{0.01in}
   \\                     \deptchair
-  \\                      Chair, Department of Mechanical and\\Materials Engineering
+  \\                      Chair, \dept
 \end{flushright}
 %
 \begin{flushleft}
@@ -136,7 +136,7 @@
 %  \vspace{1.2cm}
 %  \rule{3in}{0.01in}
   \\                     \dean, \deantitle
-  \\                      Dean, School of Graduate Studies
+  \\                      Dean, College of Graduate Studies
 \end{flushleft}}
 \usepackage{setspace}
 \usepackage[ colorlinks={true}, % set to {false} for printing

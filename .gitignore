@@ -27,6 +27,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Emacs
+auto/
+
+# LaTeX Build files
+WSUThesisTemplate.synctex.gz
+#.gz
+
+
+
 # Distribution / packaging
 .Python
 env/
