@@ -32,9 +32,12 @@
 \newcommand{\degreefull}{Mas\-ter of Sci\-ence in En\-gi\-neer\-ing}  % force hyphenation at syllables if line breaks are required
 \newcommand{\degreeshort}{M.S.Egr.}
 \newcommand{\thesisordissertation}{Thesis}% 'Thesis' or 'Dissertation'
-\newcommand{\dept}{Department of Mechanical and Materials Engineering}
-\newcommand{\institution}{Wright State University}
-\newcommand{\thesistitle}{Some Really Great Title That Provides a Concise View of the Topic Your Thesis Will Address}
+\newcommand{\thesisordissertationlc}{dissertation}
+\newcommand{\dept}{Department of Lollipops}
+\newcommand{\institution}{Wright State University} % Doubting you will
+                                % change this. 
+\newcommand{\thesistitle}{Some Really Great Title That Provides a
+  Con\-cise View of the Topic Your Thesis Will Address} % Needes a line break
 \newcommand{\bachdegreeshort}{B.S.M.E.} % Bachelor degree short
 \newcommand{\bachinstitution}{Universal University} % Bachelor degree institution
 \newcommand{\bachyear}{2004}% Bachelor degree year
@@ -47,16 +50,18 @@
 
 %-----------------------------------------------------------------------
 %  Thesis Advisor, Department Chair, Dean of Graduate Studies
+%  I don't know why titles as separated... except in the one case at
+%  the end. 
 %-----------------------------------------------------------------------
 \newcommand{\thesisdirector}{Advisor's Name}
 \newcommand{\thesisdirectortitle}{Ph.D., P.E.}
-\newcommand{\deptchair}{Al Yankovic, Ph.D., P.E., M.D.}
+\newcommand{\deptchair}{Al Yankovic}
 \newcommand{\deptchairtitle}{Ph.D., P.E.}
 \newcommand{\dean}{Elmer Fudd, PhD, MD, FEP}
 \newcommand{\deantitle}{Vice President for Research and\\ Dean of the
   Graduate School}
 %-----------------------------------------------------------------------
-%  Final Examination Committee
+%  Final Examination Committee: Comment out the ones you don't need. 
 %-----------------------------------------------------------------------
 \newcommand{\fecone}{Committee member 1}
 
@@ -82,12 +87,11 @@
 %  Begin document!
 %=============================
 %
-%Don't touch
+% Don't touch
 
+% still don't touch.   
 
-%still don't touch.   
-
-%title sheet
+% title sheet
 \usepackage{WSU}
 \hypersetup{
                      pdfauthor={\authorfull},
@@ -95,13 +99,15 @@
                      pdfsubject={\pdfsubject},
                      pdfkeywords={\pdfkeywords},
                      }
-  %\normalem
-  \pagenumbering{roman}
-  \pagestyle{plain}
-  \rhead{\today}
+% \normalem
+\pagenumbering{roman}
+\pagestyle{plain}
+\rhead{\today}
 \begin{document}
- \maketitle
+\maketitle
 \doublespace
+
+% Still don't touch!!
 
 %=============================
 %  approval sheet
@@ -131,9 +137,13 @@
 		 {\sl \thesistitle}.}
 \end{singlespace}
 \vspace*{.5in}
+
 \pdfbookmark[0]{Abstract}{Abstract}
 %\phantomsection
 %
+%========================
+% Start editing below. 
+%========================
 The abstract should succinctly summarize the contents of the thesis, stating the problem, the procedure or methods used, the results, and any conclusions.  Doctoral dissertation abstracts should not exceed 350 words.  Master's thesis abstracts should not exceed 150 words.
 %%%%%%%%%%%%%%%%%%
 %-----------------------------------------------------------------------
@@ -209,7 +219,8 @@ Any additional paragraphs should be indented as such.  Remember to thank your ad
 \vspace*{3in}
 \begin{center}
 Dedicated to\\
-Somebody Special (Wife or husband works well here)
+Somebody special (Wife, husband, girlfriend or boyfriend works well
+here. )
 \end{center}
 %
 %
@@ -225,7 +236,7 @@ Somebody Special (Wife or husband works well here)
 \chapter{In The Beginning}
 %=============================
 The date of this document generation (current version of this document) is the date of the thesis on page two (\today).{}
-sdafsd sadfsdaf asdfadf. OK, I have nothing to say here, but you should in your thesis. Introduce your chapter in a page or so. 
+sdafsd sadfsdaf asdfadf. OK, I have nothing to say here, but you should in your thesis/dissertation. Introduce your chapter in a page or so. 
 
 On a side note, style files should be located in the texmf tree automatically when a package is installed.  The sty-files used for this template are located in the folder \lq\lq{}sty\_files\_if\_needed\rq\rq{}.  If you do not have the packages already installed, you can also simply move or copy them into the same directory as this file.
 
