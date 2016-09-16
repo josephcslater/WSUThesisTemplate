@@ -113,7 +113,7 @@
 \date{}
 
 %\bibliographystyle{plainnat}
-\newcommand{\signaturepage}{%
+\newcommand{\phdSignaturePage}{%
 \begin{center}
               \uppercase{\institution}\\
               COLLEGE OF GRADUATE STUDIES\\
@@ -135,16 +135,18 @@
 \begin{flushright}
 \vfill%{}\vspace{1.2cm}
   \rule{3in}{0.01in}
-  \\                     \thesisdirector
+  \\                     \thesisdirector, \thesisdirectortitle
   \\                      \thesisordissertation\ Director
   \\
   \vfill%\vspace{1.2cm}
   \rule{3in}{0.01in}
-  \\                     \deptchair
-  \\                      \begin{minipage}{.5\textwidth}\begin{flushright}Chair,
-      \dept
-    \end{flushright}
-  \end{minipage}
+  \\                     \phdProgrameOrDeptChair, \phdProgrameOrDeptChairEducation
+  \\                     \phdProgrameOrDeptChairTitle
+  \vfill%\vspace{1.2cm}
+  \rule{3in}{0.01in}
+  \\                     \graduateSchoolDean, \graduateSchoolDeanEducation
+  \\                     \graduateSchoolDeanTitle
+  \\
 \end{flushright}
 %
 
@@ -169,16 +171,84 @@
 \checkfor{\fecseven}
 
   %\vspace{1.2cm}
-\vfill
-  \rule{3in}{0.01in}
+%\vfill
+%  \rule{3in}{0.01in}
 % Uncomment next 4 lines for fourth committee member
 % \\                     \fecfour
 %  \\
 %  \vspace{1.2cm}
 %  \rule{3in}{0.01in}
-  \\                     \dean\\ \deantitle
+%  \\                     \dean\\ \deantitle
 
 \end{flushleft}}
+% -----------------------------------------------
+% -----------------------------------------------
+% -----------------------------------------------
+\newcommand{\masterSignaturePage}{%
+\begin{center}
+              \uppercase{\institution}\\
+              COLLEGE OF GRADUATE STUDIES\\
+\end{center}
+
+\begin{flushright}
+              \today
+\end{flushright}
+
+\renewcommand\baselinestretch{1}
+    I HEREBY RECOMMEND THAT THE \MakeUppercase{\thesisordissertation} PREPARED UNDER MY                 
+    SUPERVISION BY \expandafter\expandafter\expandafter\uline\expandafter{\authorfull} 
+    ENTITLED \expandafter\expandafter\expandafter\uline\expandafter{\thesistitle}                
+    BE ACCEPTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS
+    FOR THE DEGREE OF                                            
+    \expandafter\expandafter\expandafter\uline\expandafter{\degreefull}.
+%
+\bigskip
+\begin{flushright}
+\vfill%{}\vspace{1.2cm}
+  \rule{3in}{0.01in}
+  \\                     \thesisdirector, \thesisdirectortitle
+  \\                      \thesisordissertation\ Director
+  \\
+  \vfill%\vspace{1.2cm}
+  \rule{3in}{0.01in}
+  \\                     \phdProgrameOrDeptChair, \phdProgrameOrDeptChairEducation
+  \\                     \phdProgrameOrDeptChairTitle
+  \\
+\end{flushright}
+%
+
+\begin{flushleft}
+                          Committee on
+  \\                      Final Examination
+  \\ 
+  \vfill
+  \rule{3in}{0.01in}
+  \\                     \fecone
+  \\
+  \vfill
+  \rule{3in}{0.01in}
+  \\                     \fectwo  \\
+  \vfill
+  \rule{3in}{0.01in}
+  \\                     \fecthree
+  \\
+\checkfor{\fecfour}
+\checkfor{\fecfive}
+\checkfor{\fecsix}
+\checkfor{\fecseven}
+
+  %\vspace{1.2cm}
+%\vfill
+%  \rule{3in}{0.01in}
+% Uncomment next 4 lines for fourth committee member
+% \\                     \fecfour
+%  \\
+%  \vspace{1.2cm}
+%  \rule{3in}{0.01in}
+%  \\                     \dean\\ \deantitle
+
+\end{flushleft}}
+
 \usepackage{setspace}
 \usepackage[ colorlinks={true}, % set to {false} for printing
             linkcolor={blue},
