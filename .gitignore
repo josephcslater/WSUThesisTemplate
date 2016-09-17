@@ -32,7 +32,7 @@ auto/
 
 # LaTeX Build files
 WSUThesisTemplate.synctex.gz
-*.gz
+*.*.gz
 *.*.bak
 *.aux
 *~
@@ -99,3 +99,5 @@ docs/_build/
 
 # PyBuilder
 target/
+
+*.gz
