@@ -40,7 +40,9 @@ WSUThesisTemplate.synctex.gz
 !WSUThesisTemplate.tex
 !AppendixA.tex
 !AppendixB.tex
-
+*.fls
+*.fdb_latexmk
+.latex*
 
 
 # Distribution / packaging
