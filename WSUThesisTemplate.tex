@@ -253,7 +253,11 @@ This citation is in the ASME format (for which I've included a bst file. See \te
 \begin{itemize}
 \item natbib:  put \verb'\usepackage{natbib}' in the header (before \verb'\begin{document}'), and \verb'\bibliographystyle{plainnat}' just before \verb'\bibliography').  See the natbib documentation for details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 \item AIAA:  put \verb'\usepackage{overcite}' in the header (before \verb'\begin{document}'), and \verb'\bibliographystyle{aiaa}' just before \verb'\bibliography'). Use \verb'\citen{sdfsdf}' for in-line citations. Read the overcite package documentation for more.
+=======
+\item AIAA:  put \verb'\usepackage{overcite}' in the header (before \verb'\begin{document}'), and \verb'\bibliographystyle{aiaa}' just before \verb'\bibliography'). Use \verb'\citen{sdfsdf}' for in-line citations. Read the overcite package documentation for more. 
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 \item AIAA:  put \verb'\usepackage{overcite}' in the header (before \verb'\begin{document}'), and \verb'\bibliographystyle{aiaa}' just before \verb'\bibliography'). Use \verb'\citen{sdfsdf}' for in-line citations. Read the overcite package documentation for more. 
 >>>>>>> parent of 7a5e609... Cleanups using chktex
@@ -262,6 +266,10 @@ This citation is in the ASME format (for which I've included a bst file. See \te
 A variety of other formats are available on \href{http://www.ctan.org}{CTAN} or though an internet search. You may also just pick one using ''natbib''.\footnote{Don't those quotes look bad before ``natbib''? Well, use two left quotes in \LaTeX\ to get it to look right.}  The formatting of your references is controlled by the \verb'bibliographystyle' command near the end of the document. Use the bibliography style appropriate to your field. On exists, out there. I'm sure. If not (ok, it happened to me 10 years ago), you can use the \verb'makebst' script to make your own. Answer a bunch of questions and it makes a style file for you. If you are using a numerical citation system, you may want to use \verb'\usepackage{cite}'. It creates a condensed numerical list of citations, but can cause conflicts with the \verb'hyperref' package (you may need to decide\ldots sorry, this is a bug that drives me nuts too.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+A variety of other formats are available on \href{http://www.ctan.org}{CTAN} or though an internet search. You may also just pick one using ''natbib''.\footnote{Don't those quotes look bad before ``natbib''? Well, use two left quotes in \LaTeX\ to get it to look right.}  The formatting of your references is controlled by the \verb'bibliographystyle' command near the end of the document. Use the bibliography style appropriate to your field. On exists, out there. I'm sure. If not (ok, it happened to me 10 years ago), you can use the \verb'makebst' script to make your own. Answer a bunch of questions and it makes a style file for you. If you are using a numerical citation system, you may want to use \verb'\usepackage{cite}'. It creates a condensed numerical list of citations, but can cause conflicts with the \verb'hyperref' package (you may need to decide\ldots sorry, this is a bug that drives me nuts too.)
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 A variety of other formats are available on \href{http://www.ctan.org}{CTAN} or though an internet search. You may also just pick one using ''natbib''.\footnote{Don't those quotes look bad before ``natbib''? Well, use two left quotes in \LaTeX\ to get it to look right.}  The formatting of your references is controlled by the \verb'bibliographystyle' command near the end of the document. Use the bibliography style appropriate to your field. On exists, out there. I'm sure. If not (ok, it happened to me 10 years ago), you can use the \verb'makebst' script to make your own. Answer a bunch of questions and it makes a style file for you. If you are using a numerical citation system, you may want to use \verb'\usepackage{cite}'. It creates a condensed numerical list of citations, but can cause conflicts with the \verb'hyperref' package (you may need to decide\ldots sorry, this is a bug that drives me nuts too.)
 >>>>>>> parent of 7a5e609... Cleanups using chktex
@@ -272,12 +280,21 @@ A variety of other formats are available on \href{http://www.ctan.org}{CTAN} or 
 There are two lines in this section in your \LaTeX\ file. The first is a bibligraphystyle command (see the \textsf{tex} file. Don't move it elsewhere. It won't work out well for you.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The last line is the bibliography command. It just tells \LaTeX\  the name of your \textsf{.bib} file. This is a database of your references.
 The last line is the bibliography command. It just tells \LaTeX\  the name of your \textsf{.bib} file. This is a database of your references.
 
 Also, use the \verb'\phantomsection' command to correctly anchor the hyperlink for the bibliography.  Without this, any hyperlinks in the document, and the link from the bookmarks will take you to the incorrect page.
 You can have as many sources listed in the *.bib file, but if you do not cite them in your document, they will not show up in your Bibliography.  And if you do, they automatically are sorted\ldots pretty nice!
 You can have as many sources listed in the *.bib file, but if you do not cite them in your document, they will not show up in your Bibliography.  And if you do, they automatically are sorted\ldots pretty nice!
+=======
+You need to choose a style file that formats references the way you want them formatted.  You should chose a style for your major.  Look for bst styles on ctan, or use makebst.sty. This formats the bibliography.
+The last line is the bibliography command. It just tells \LaTeX\  the name of your \textsf{.bib} file. This is a database of your references. 
+
+Also, use the \verb'\phantomsection' command to correctly anchor the hyperlink for the bibliography.  Without this, any hyperlinks in the document, and the link from the bookmarks will take you to the incorrect page.
+
+You can have as many sources listed in the *.bib file, but if you do not cite them in your document, they will not show up in your Bibliography.  And if you do, they automatically are sorted\ldots pretty nice!  
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 You need to choose a style file that formats references the way you want them formatted.  You should chose a style for your major.  Look for bst styles on ctan, or use makebst.sty. This formats the bibliography.
 The last line is the bibliography command. It just tells \LaTeX\  the name of your \textsf{.bib} file. This is a database of your references. 
@@ -307,7 +324,10 @@ x&=\frac{\alpha}{\beta}
 \end{align}
 The same applies for the \verb'align' command\ldots if you don\rq{}t want equation numbers,  just use an *.  More can be found at the references listed in Section \ref{sec:refs}.  You can easily make matrices such as the viscous damping matrix, $C_d$, which is shown in Equation \eqref{eq:damping_mat}.  Use the \verb'\eqref{eq:\ldots}' command to reference equations properly.
 <<<<<<< HEAD
+<<<<<<< HEAD
 The same applies for the \verb'align' command\ldots if you don\rq{}t want equation numbers,  just use an *.  More can be found at the references listed in Section~\ref{sec:refs}.  You can easily make matrices such as the viscous damping matrix, $C_d$, which is shown in Equation~\eqref{eq:damping_mat}.  Use the \verb'\eqref{eq:\ldots}' command to reference equations properly.
+=======
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 %
 \begin{equation}
 C_{da} =\left[U_n^T\right]^{-1}
@@ -318,6 +338,9 @@ C_{da} =\left[U_n^T\right]^{-1}
 \label{eq:damping_mat}
 C_{da} =[U_n^T]^{-1}
 \left[ \begin{array}{ccc}
+<<<<<<< HEAD
+>>>>>>> parent of 7a5e609... Cleanups using chktex
+=======
 >>>>>>> parent of 7a5e609... Cleanups using chktex
 a&b&c\\
 	\ddots & 	& \\
@@ -327,8 +350,13 @@ a&b&c\\
 \left[U_n\right]^{-1}
 \end{equation}
 <<<<<<< HEAD
+<<<<<<< HEAD
 We don't number equations in \LaTeX. \LaTeX\ does it for us. Label them with names (see the raw \LaTeX\ file).   Just don't put a space in the middle of a variable name.
 We don't number equations in \LaTeX. \LaTeX\ does it for us. Label them with names (see the raw \LaTeX\ file).   Just don't put a space in the middle of a variable name.
+=======
+
+We don't number equations in \LaTeX. \LaTeX\ does it for us. Label them with names (see the raw \LaTeX\ file).   Just don't put a space in the middle of a variable name. 
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 
 We don't number equations in \LaTeX. \LaTeX\ does it for us. Label them with names (see the raw \LaTeX\ file).   Just don't put a space in the middle of a variable name. 
@@ -346,6 +374,7 @@ See  indent? But if I'm continuing the paragraph, don't put that blank line in
   x\neq y
 \end{equation}
 and there won\rq{}t be an indent.
+<<<<<<< HEAD
 <<<<<<< HEAD
 If you want a new page and you have a figure you want to stay with the section, you need to use the \verb'\clearpage' command instead of the \verb'\newpage' command.
 If you want a new page and you have a figure you want to stay with the section, you need to use the \verb'\clearpage' command instead of the \verb'\newpage' command.
@@ -378,17 +407,38 @@ This is not the same as section \ref{sec:equations} on equations. However, if I 
 \end{figure}
 The width of the figure can be set based on percentage of text width as set in Figure~\ref{fig:example} or based on inches as used in Figure~\ref{fig:example2}.  Also notice the \verb'\label' is after the \verb'\caption'.  This must be true, or the hyperlinks and figure numbers will not be correct.
 
+=======
+
+If you want a new page and you have a figure you want to stay with the section, you need to use the \verb'\clearpage' command instead of the \verb'\newpage' command.  
+
+%=============================
+\section{Figures}
+%=============================
+This is not the same as section \ref{sec:equations} on equations. However, if I move that section, I'll still be referring to the right section. 
+ Better explained by Figure\footnote{a) Don't use footnotes. b) Capitalize the word ``Figure'')} \ref{fig:example}.  You can keep all of your figures in a sub-directory such as \lq\lq{}pix\rq\rq{}, which is used in this template.
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=.5\textwidth]{pix/example} %
+   \caption{Example caption.}
+   \label{fig:example}
+\end{figure}
+
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 The width of the figure can be set based on percentage of text width as set in Figure \ref{fig:example} or based on inches as used in Figure \ref{fig:example2}.  Also notice the \verb'\label' is after the \verb'\caption'.  This must be true, or the hyperlinks and figure numbers will not be correct.
 
 %----------------------------------------------------------
 <<<<<<< HEAD
 =======
 \begin{figure}[!t] %forced to top of page so no text will be stranded above
+<<<<<<< HEAD
+>>>>>>> parent of 7a5e609... Cleanups using chktex
+=======
 >>>>>>> parent of 7a5e609... Cleanups using chktex
    \centering
    \includegraphics[width=3in]{pix/example} %
    \caption[Short Figure Caption]{Example caption that is way too long for the list of figures, is a run on sentence, has no purpose being this long, except to show you how to avoid such a crazy long entry in your list of figures.}
    \label{fig:example2}
+<<<<<<< HEAD
 <<<<<<< HEAD
 \label{fig:example2}
 \end{figure}
@@ -426,6 +476,15 @@ Don't ask me why the label command has to come late in a figure. It does.  Remem
 
 %=============================
 \section{Sub-figures}
+=======
+\end{figure}
+%----------------------------------------------------------
+
+Don't ask me why the label command has to come late in a figure. It does.  Remember, color won't print well in black and white. Use dashes and dash-dots, etc, for hard copies. I'll document a trick for this later. Basically, make two graphics directories, one for color, one for black and white. Then, use the \textsf{graphicspath} command to choose the one you want. You can Google this for now. 
+
+%=============================
+\section{Sub-figures}
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 %=============================
 You can also make sub-figures and reference each of them individually.  You can reference the entire Figure \ref{fig:1x2_subfigs}, or just Figure \ref{fig:example_a} or Figure \ref{fig:example_b}.
 %-----------------------------------------------------------------
@@ -447,6 +506,9 @@ If you want 4 total figures, just add a line break, \verb'\\', after the second 
 
 %-----------------------------------------------------------------
 \begin{figure}[!t]
+<<<<<<< HEAD
+>>>>>>> parent of 7a5e609... Cleanups using chktex
+=======
 >>>>>>> parent of 7a5e609... Cleanups using chktex
    \centering
    \subfigure[First sub-figure]{
@@ -464,7 +526,10 @@ If you want 4 total figures, just add a line break, \verb'\\', after the second 
    \caption{2x2 sub-figures.}
    \label{fig:2x2_subfigs}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \label{fig:2x2_subfigs}
+=======
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 >>>>>>> parent of 7a5e609... Cleanups using chktex
 \end{figure}
@@ -488,8 +553,13 @@ Using the \verb'booktabs' package makes very professional looking tables by vary
 %=============================
 \clearpage \section{Inserting Code}
 <<<<<<< HEAD
+<<<<<<< HEAD
 If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines , automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
 If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines, automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
+=======
+%=============================
+If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines , automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 %=============================
 If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines , automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
@@ -505,6 +575,7 @@ If you want to insert code you can use the \verb'mcode' package.  You can choose
 Below are some programs for Windows:
 \begin{itemize}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \subitem- Up-to-date implementation of \TeX
 \subitem- Up-to-date implementation of \TeX\
 \subitem- Side-by-side comparison of source and PDF
@@ -518,15 +589,25 @@ Below are some programs for Windows:
 \subitem- Up-to-date implementation of \TeX 
 \subitem- Side-by-side comparison of source and PDF
 \subitem- Has portable version that can be run from portable storage device
+=======
+\item \href{http://miktex.org/}{MiK\TeX}
+\subitem- Up-to-date implementation of \TeX 
+\subitem- Side-by-side comparison of source and PDF
+\subitem- Has portable version that can be run from portable storage device
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \item \href{http://www.lyx.org/}{LyX}
 \subitem- Graphical interface used with \TeX and \LaTeX\ 
 \item \href{http://www.tug.org/texlive/}{\TeX Live} (also Unix)
 \item pro\TeX t
+<<<<<<< HEAD
+>>>>>>> parent of 7a5e609... Cleanups using chktex
+=======
 >>>>>>> parent of 7a5e609... Cleanups using chktex
 \end{itemize}
 
 %=============================
 \section{Mac OS}
+<<<<<<< HEAD
 <<<<<<< HEAD
 Below are some programs for Mac OS:
 Below are some programs for Mac OS:\@
@@ -535,6 +616,15 @@ Below are some programs for Mac OS:\@
 \subitem- \TeX Live with the addition of Mac specific programs
 \item gw\TeX  (Mac OS X)
 \item gw\TeX\ (Mac OS X)
+=======
+%=============================
+Below are some programs for Mac OS:
+\begin{itemize}
+\item \href{http://www.lyx.org/}{LyX}
+\item\href{http://www.tug.org/mactex/}{Mac\TeX}
+\subitem- \TeX Live with the addition of Mac specific programs
+\item gw\TeX  (Mac OS X)
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 %=============================
 Below are some programs for Mac OS:
@@ -560,8 +650,13 @@ Below are some programs for Mac OS:
 %-----------------------------------------------------------------------
 % Bibliography
 <<<<<<< HEAD
+<<<<<<< HEAD
 \clearpage \phantomsection %used to correctly anchor hyperlinks
 \clearpage \phantomsection%used to correctly anchor hyperlinks
+=======
+%-----------------------------------------------------------------------
+\clearpage \phantomsection %used to correctly anchor hyperlinks
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 %-----------------------------------------------------------------------
 \clearpage \phantomsection %used to correctly anchor hyperlinks
@@ -576,15 +671,21 @@ Below are some programs for Mac OS:
 %-----------------------------------------------------------------------
 %%%%%%%%%%%%%%%%%%%
 <<<<<<< HEAD
+<<<<<<< HEAD
 \phantomsection %use \phantomsection command to correctly anchor hyperlinks
 \phantomsection%use \phantomsection command to correctly anchor hyperlinks
 \phantomsection
 \phantomsection\
 =======
+=======
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \begin{appendices}
 \phantomsection %use \phantomsection command to correctly anchor hyperlinks
 \include{AppendixA}
 \phantomsection
+<<<<<<< HEAD
+>>>>>>> parent of 7a5e609... Cleanups using chktex
+=======
 >>>>>>> parent of 7a5e609... Cleanups using chktex
 \include{AppendixB}
 \end{appendices}
@@ -593,8 +694,13 @@ Below are some programs for Mac OS:
 %
 %
 <<<<<<< HEAD
+<<<<<<< HEAD
 \end{document}
 \end{document}
+=======
+% End of document
+\end{document} 
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 =======
 % End of document
 \end{document} 
