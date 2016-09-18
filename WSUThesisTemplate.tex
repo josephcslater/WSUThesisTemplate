@@ -1,6 +1,6 @@
 %-----------------------------------------------------------------------
 % Latex Thesis/Dissertation Template for Wright State University
-%
+% 
 % Written by Sean A. Mortara
 % 28 June 2001
 % Modified by Josh Mark
@@ -34,7 +34,7 @@
 \newcommand{\thesisordissertationlc}{Dissertation}
 \newcommand{\dept}{Department of Lollipops}
 \newcommand{\institution}{Wright State University} % Doubting you will
-                                % change this.
+                                % change this. 
 \newcommand{\thesistitle}{Some Really Great Title That Provides a
   Con\-cise View of the Topic Your Thesis Will Address} % Needes a line break
 \newcommand{\bachdegreeshort}{B.S.M.E.} % Bachelor degree short
@@ -50,7 +50,7 @@
 %-----------------------------------------------------------------------
 %  Thesis Advisor, Department Chair, Dean of Graduate Studies
 %  I don't know why titles as separated... except in the one case at
-%  the end.
+%  the end. 
 %-----------------------------------------------------------------------
 \newcommand{\thesisdirector}{Advisor's Name}
 \newcommand{\thesisdirectortitle}{Ph.D., P.E.}
@@ -63,7 +63,7 @@
 \newcommand{\graduateSchoolDeanTitle}{Vice President for Research and\\ Dean of the Graduate School}
 
 %-----------------------------------------------------------------------
-%  Final Examination Committee: Comment out the ones you don't need.
+%  Final Examination Committee: Comment out the ones you don't need. 
 %-----------------------------------------------------------------------
 \newcommand{\fecone}{Committee member 1}
 
@@ -81,7 +81,7 @@
 
 % If you have more committee members... good luck
 
-% Modify this if needed for getting citations to "look right" according to your field. Read the natbib documentation on how to use this.
+% Modify this if needed for getting citations to "look right" according to your field. Read the natbib documentation on how to use this. 
 %\usepackage[round]{natbib}
 %\usepackage{doublespace}
 
@@ -91,7 +91,7 @@
 %
 % Don't touch
 
-% still don't touch.
+% still don't touch.   
 
 % title sheet
 \usepackage{WSU}
@@ -134,9 +134,9 @@
   ABSTRACT
 \end{center}
 %
-\noindent{\small{\authorlast, \authorfirst}.
-		 {\degreeshort, \dept, \institution},
-		 {\yearcomplete}.
+\noindent{\small{\authorlast, \authorfirst}. 
+		 {\degreeshort, \dept, \institution}, 
+		 {\yearcomplete}. 
 		 {\sl \thesistitle}.}
 \end{singlespace}
 \vspace*{.5in}
@@ -145,7 +145,7 @@
 %\phantomsection
 %
 %========================
-% Start editing below.
+% Start editing below. 
 %========================
 The abstract should succinctly summarize the contents of the thesis, stating the problem, the procedure or methods used, the results, and any conclusions.  Doctoral dissertation abstracts should not exceed 350 words.  Master's thesis abstracts should not exceed 150 words.
 %%%%%%%%%%%%%%%%%%
@@ -239,36 +239,53 @@ here. )
 \chapter{In The Beginning}
 %=============================
 The date of this document generation (current version of this document) is the date of the thesis on page two (\today).{}
-sdafsd sadfsdaf asdfadf. OK, I have nothing to say here, but you should in your thesis/dissertation. Introduce your chapter in a page or so.
+sdafsd sadfsdaf asdfadf. OK, I have nothing to say here, but you should in your thesis/dissertation. Introduce your chapter in a page or so. 
 
 On a side note, style files should be located in the texmf tree automatically when a package is installed.  The sty-files used for this template are located in the folder \lq\lq{}sty\_files\_if\_needed\rq\rq{}.  If you do not have the packages already installed, you can also simply move or copy them into the same directory as this file.
 
 %=============================
 \section[Citations/References (short form of section name)]{Citations, using them, referring to them, formatting them, and loving using them because if you don't use them when appropriate it's called \emph{plagiarism}, and references}
 %=============================
-That was a ridiculously long section name to illustrate how to get a shorter version in your table of contents.
+That was a ridiculously long section name to illustrate how to get a shorter version in your table of contents.  
 
 See section \ref{sec:equations}. I'm not the only one who says this is awesome stuff\cite{Mortara2004}!
 This citation is in the ASME format (for which I've included a bst file. See \textsc{asmems4} in the source document(way near the end). Some  other options are:
 \begin{itemize}
 \item natbib:  put \verb'\usepackage{natbib}' in the header (before \verb'\begin{document}'), and \verb'\bibliographystyle{plainnat}' just before \verb'\bibliography').  See the natbib documentation for details.
+<<<<<<< HEAD
 \item AIAA:  put \verb'\usepackage{overcite}' in the header (before \verb'\begin{document}'), and \verb'\bibliographystyle{aiaa}' just before \verb'\bibliography'). Use \verb'\citen{sdfsdf}' for in-line citations. Read the overcite package documentation for more.
+=======
+\item AIAA:  put \verb'\usepackage{overcite}' in the header (before \verb'\begin{document}'), and \verb'\bibliographystyle{aiaa}' just before \verb'\bibliography'). Use \verb'\citen{sdfsdf}' for in-line citations. Read the overcite package documentation for more. 
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \end{itemize}
 \end{document}
 A variety of other formats are available on \href{http://www.ctan.org}{CTAN} or though an internet search. You may also just pick one using ''natbib''.\footnote{Don't those quotes look bad before ``natbib''? Well, use two left quotes in \LaTeX\ to get it to look right.}  The formatting of your references is controlled by the \verb'bibliographystyle' command near the end of the document. Use the bibliography style appropriate to your field. On exists, out there. I'm sure. If not (ok, it happened to me 10 years ago), you can use the \verb'makebst' script to make your own. Answer a bunch of questions and it makes a style file for you. If you are using a numerical citation system, you may want to use \verb'\usepackage{cite}'. It creates a condensed numerical list of citations, but can cause conflicts with the \verb'hyperref' package (you may need to decide\ldots sorry, this is a bug that drives me nuts too.)
 
+<<<<<<< HEAD
+=======
+A variety of other formats are available on \href{http://www.ctan.org}{CTAN} or though an internet search. You may also just pick one using ''natbib''.\footnote{Don't those quotes look bad before ``natbib''? Well, use two left quotes in \LaTeX\ to get it to look right.}  The formatting of your references is controlled by the \verb'bibliographystyle' command near the end of the document. Use the bibliography style appropriate to your field. On exists, out there. I'm sure. If not (ok, it happened to me 10 years ago), you can use the \verb'makebst' script to make your own. Answer a bunch of questions and it makes a style file for you. If you are using a numerical citation system, you may want to use \verb'\usepackage{cite}'. It creates a condensed numerical list of citations, but can cause conflicts with the \verb'hyperref' package (you may need to decide\ldots sorry, this is a bug that drives me nuts too.)
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 
 %=============================
 \subsection{About the Bibliography}
 %=============================
 There are two lines in this section in your \LaTeX\ file. The first is a bibligraphystyle command (see the \textsf{tex} file. Don't move it elsewhere. It won't work out well for you.
 
+<<<<<<< HEAD
 The last line is the bibliography command. It just tells \LaTeX\  the name of your \textsf{.bib} file. This is a database of your references.
 The last line is the bibliography command. It just tells \LaTeX\  the name of your \textsf{.bib} file. This is a database of your references.
 
 Also, use the \verb'\phantomsection' command to correctly anchor the hyperlink for the bibliography.  Without this, any hyperlinks in the document, and the link from the bookmarks will take you to the incorrect page.
 You can have as many sources listed in the *.bib file, but if you do not cite them in your document, they will not show up in your Bibliography.  And if you do, they automatically are sorted\ldots pretty nice!
 You can have as many sources listed in the *.bib file, but if you do not cite them in your document, they will not show up in your Bibliography.  And if you do, they automatically are sorted\ldots pretty nice!
+=======
+You need to choose a style file that formats references the way you want them formatted.  You should chose a style for your major.  Look for bst styles on ctan, or use makebst.sty. This formats the bibliography.
+The last line is the bibliography command. It just tells \LaTeX\  the name of your \textsf{.bib} file. This is a database of your references. 
+
+Also, use the \verb'\phantomsection' command to correctly anchor the hyperlink for the bibliography.  Without this, any hyperlinks in the document, and the link from the bookmarks will take you to the incorrect page.
+
+You can have as many sources listed in the *.bib file, but if you do not cite them in your document, they will not show up in your Bibliography.  And if you do, they automatically are sorted\ldots pretty nice!  
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 
 %=============================
 \subsection{Equations}\label{sec:equations}
@@ -289,11 +306,19 @@ x&=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
 x&=\frac{\alpha}{\beta}
 \end{align}
 The same applies for the \verb'align' command\ldots if you don\rq{}t want equation numbers,  just use an *.  More can be found at the references listed in Section \ref{sec:refs}.  You can easily make matrices such as the viscous damping matrix, $C_d$, which is shown in Equation \eqref{eq:damping_mat}.  Use the \verb'\eqref{eq:\ldots}' command to reference equations properly.
+<<<<<<< HEAD
 The same applies for the \verb'align' command\ldots if you don\rq{}t want equation numbers,  just use an *.  More can be found at the references listed in Section~\ref{sec:refs}.  You can easily make matrices such as the viscous damping matrix, $C_d$, which is shown in Equation~\eqref{eq:damping_mat}.  Use the \verb'\eqref{eq:\ldots}' command to reference equations properly.
 %
 \begin{equation}
 C_{da} =\left[U_n^T\right]^{-1}
 \begin{bmatrix}
+=======
+%
+\begin{equation}
+\label{eq:damping_mat}
+C_{da} =[U_n^T]^{-1}
+\left[ \begin{array}{ccc}
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 a&b&c\\
 	\ddots & 	& \\
 	     	& 2 \zeta_i \omega_i 		& \\
@@ -301,8 +326,13 @@ a&b&c\\
 \end{bmatrix}^{{-1}}
 \left[U_n\right]^{-1}
 \end{equation}
+<<<<<<< HEAD
 We don't number equations in \LaTeX. \LaTeX\ does it for us. Label them with names (see the raw \LaTeX\ file).   Just don't put a space in the middle of a variable name.
 We don't number equations in \LaTeX. \LaTeX\ does it for us. Label them with names (see the raw \LaTeX\ file).   Just don't put a space in the middle of a variable name.
+=======
+
+We don't number equations in \LaTeX. \LaTeX\ does it for us. Label them with names (see the raw \LaTeX\ file).   Just don't put a space in the middle of a variable name. 
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 
 Now if I have an equation that I want to be between paragraphs, unlike equation (\ref{eq:alphaoverbeta}), I put a blank line after the equation.
 \begin{equation}
@@ -316,6 +346,7 @@ See  indent? But if I'm continuing the paragraph, don't put that blank line in
   x\neq y
 \end{equation}
 and there won\rq{}t be an indent.
+<<<<<<< HEAD
 If you want a new page and you have a figure you want to stay with the section, you need to use the \verb'\clearpage' command instead of the \verb'\newpage' command.
 If you want a new page and you have a figure you want to stay with the section, you need to use the \verb'\clearpage' command instead of the \verb'\newpage' command.
 
@@ -329,15 +360,36 @@ Better explained by Figure~\ref{fig:example}\footnote{a-\ Don't use footnotes.\ 
    \includegraphics[width=.5\textwidth]{pix/example}
    \caption{Example caption.}
 \label{fig:example}
+=======
+
+If you want a new page and you have a figure you want to stay with the section, you need to use the \verb'\clearpage' command instead of the \verb'\newpage' command.  
+
+%=============================
+\section{Figures}
+%=============================
+This is not the same as section \ref{sec:equations} on equations. However, if I move that section, I'll still be referring to the right section. 
+ Better explained by Figure\footnote{a) Don't use footnotes. b) Capitalize the word ``Figure'')} \ref{fig:example}.  You can keep all of your figures in a sub-directory such as \lq\lq{}pix\rq\rq{}, which is used in this template.
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=.5\textwidth]{pix/example} %
+   \caption{Example caption.}
+   \label{fig:example}
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \end{figure}
 The width of the figure can be set based on percentage of text width as set in Figure~\ref{fig:example} or based on inches as used in Figure~\ref{fig:example2}.  Also notice the \verb'\label' is after the \verb'\caption'.  This must be true, or the hyperlinks and figure numbers will not be correct.
 
-The width of the figure can be set based on percentage of text width as set in Figure~\ref{fig:example} or based on inches as used in Figure~\ref{fig:example2}.  Also notice the \verb'\label' is after the \verb'\caption'.  This must be true, or the hyperlinks and figure numbers will not be correct.
+The width of the figure can be set based on percentage of text width as set in Figure \ref{fig:example} or based on inches as used in Figure \ref{fig:example2}.  Also notice the \verb'\label' is after the \verb'\caption'.  This must be true, or the hyperlinks and figure numbers will not be correct.
+
 %----------------------------------------------------------
+<<<<<<< HEAD
+=======
+\begin{figure}[!t] %forced to top of page so no text will be stranded above
+>>>>>>> parent of 7a5e609... Cleanups using chktex
    \centering
    \includegraphics[width=3in]{pix/example} %
    \caption[Short Figure Caption]{Example caption that is way too long for the list of figures, is a run on sentence, has no purpose being this long, except to show you how to avoid such a crazy long entry in your list of figures.}
    \label{fig:example2}
+<<<<<<< HEAD
 \label{fig:example2}
 \end{figure}
 %----------------------------------------------------------
@@ -366,6 +418,36 @@ If you want 4 total figures, just add a line break, \verb'\\', after the second 
 If you want 4 total figures, just add a line break, \verb'\\', after the second sub-figure as shown in Figure~\ref{fig:2x2_subfigs}.  You can add spacing between them with the \verb'\quad' or \verb'\qquad' commands.  There is more space between Figures~\ref{fig:example_2x2a}~and~\ref{fig:example_2x2b} to show the use of this spacing.  Make sure all of your spacing is equal.  And don\rq{}t make your figures this small.  As my advisor told me, \lq\lq{}old people read these\rq\rq{}\cite{Mark}.
 
 %-----------------------------------------------------------------
+=======
+\end{figure}
+%----------------------------------------------------------
+
+Don't ask me why the label command has to come late in a figure. It does.  Remember, color won't print well in black and white. Use dashes and dash-dots, etc, for hard copies. I'll document a trick for this later. Basically, make two graphics directories, one for color, one for black and white. Then, use the \textsf{graphicspath} command to choose the one you want. You can Google this for now. 
+
+%=============================
+\section{Sub-figures}
+%=============================
+You can also make sub-figures and reference each of them individually.  You can reference the entire Figure \ref{fig:1x2_subfigs}, or just Figure \ref{fig:example_a} or Figure \ref{fig:example_b}.
+%-----------------------------------------------------------------
+\begin{figure}[!ht]
+   \centering
+   \subfigure[First sub-figure]{
+   \label{fig:example_a}
+   \includegraphics[width=.45\textwidth]{pix/example}}
+   \subfigure[Second sub-figure]{
+   \label{fig:example_b}
+   \includegraphics[width=.45\textwidth]{pix/example}}
+   \caption{Side-by-side sub-figures.}
+   \label{fig:1x2_subfigs}
+\end{figure}
+%-----------------------------------------------------------------
+
+
+If you want 4 total figures, just add a line break, \verb'\\', after the second sub-figure as shown in Figure \ref{fig:2x2_subfigs}.  You can add spacing between them with the \verb'\quad' or \verb'\qquad' commands.  There is more space between Figures \ref{fig:example_2x2a} and \ref{fig:example_2x2b} to show the use of this spacing.  Make sure all of your spacing is equal.  And don\rq{}t make your figures this small.  As my advisor told me, \lq\lq{}old people read these\rq\rq{} \cite{Mark}.
+
+%-----------------------------------------------------------------
+\begin{figure}[!t]
+>>>>>>> parent of 7a5e609... Cleanups using chktex
    \centering
    \subfigure[First sub-figure]{
    \label{fig:example_2x2a}
@@ -381,7 +463,10 @@ If you want 4 total figures, just add a line break, \verb'\\', after the second 
    \includegraphics[width=.15\textwidth]{pix/example}}
    \caption{2x2 sub-figures.}
    \label{fig:2x2_subfigs}
+<<<<<<< HEAD
 \label{fig:2x2_subfigs}
+=======
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \end{figure}
 %-----------------------------------------------------------------
 
@@ -402,8 +487,13 @@ Using the \verb'booktabs' package makes very professional looking tables by vary
 
 %=============================
 \clearpage \section{Inserting Code}
+<<<<<<< HEAD
 If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines , automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
 If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines, automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
+=======
+%=============================
+If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines , automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 
 \lstinputlisting{importfile.m}
 
@@ -414,6 +504,7 @@ If you want to insert code you can use the \verb'mcode' package.  You can choose
 %=============================
 Below are some programs for Windows:
 \begin{itemize}
+<<<<<<< HEAD
 \subitem- Up-to-date implementation of \TeX
 \subitem- Up-to-date implementation of \TeX\
 \subitem- Side-by-side comparison of source and PDF
@@ -422,10 +513,21 @@ Below are some programs for Windows:
 \subitem- Graphical interface used with \TeX\ and \LaTeX\
 \item pro\TeX t
 \item pro\TeX\ t
+=======
+\item \href{http://miktex.org/}{MiK\TeX}
+\subitem- Up-to-date implementation of \TeX 
+\subitem- Side-by-side comparison of source and PDF
+\subitem- Has portable version that can be run from portable storage device
+\item \href{http://www.lyx.org/}{LyX}
+\subitem- Graphical interface used with \TeX and \LaTeX\ 
+\item \href{http://www.tug.org/texlive/}{\TeX Live} (also Unix)
+\item pro\TeX t
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \end{itemize}
 
 %=============================
 \section{Mac OS}
+<<<<<<< HEAD
 Below are some programs for Mac OS:
 Below are some programs for Mac OS:\@
 \begin{itemize}
@@ -433,6 +535,15 @@ Below are some programs for Mac OS:\@
 \subitem- \TeX Live with the addition of Mac specific programs
 \item gw\TeX  (Mac OS X)
 \item gw\TeX\ (Mac OS X)
+=======
+%=============================
+Below are some programs for Mac OS:
+\begin{itemize}
+\item \href{http://www.lyx.org/}{LyX}
+\item\href{http://www.tug.org/mactex/}{Mac\TeX}
+\subitem- \TeX Live with the addition of Mac specific programs
+\item gw\TeX  (Mac OS X)
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \item Latexian (Mac OS X)
 \end{itemize}
 
@@ -448,8 +559,13 @@ Below are some programs for Mac OS:\@
 %
 %-----------------------------------------------------------------------
 % Bibliography
+<<<<<<< HEAD
 \clearpage \phantomsection %used to correctly anchor hyperlinks
 \clearpage \phantomsection%used to correctly anchor hyperlinks
+=======
+%-----------------------------------------------------------------------
+\clearpage \phantomsection %used to correctly anchor hyperlinks
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \renewcommand\baselinestretch{1.5}
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{plain}
@@ -459,15 +575,27 @@ Below are some programs for Mac OS:\@
 % Appendices
 %-----------------------------------------------------------------------
 %%%%%%%%%%%%%%%%%%%
+<<<<<<< HEAD
 \phantomsection %use \phantomsection command to correctly anchor hyperlinks
 \phantomsection%use \phantomsection command to correctly anchor hyperlinks
 \phantomsection
 \phantomsection\
+=======
+\begin{appendices}
+\phantomsection %use \phantomsection command to correctly anchor hyperlinks
+\include{AppendixA}
+\phantomsection
+>>>>>>> parent of 7a5e609... Cleanups using chktex
 \include{AppendixB}
 \end{appendices}
 %%%%%%%%%%%%%%%%%%%
 %
 %
 %
+<<<<<<< HEAD
 \end{document}
 \end{document}
+=======
+% End of document
+\end{document} 
+>>>>>>> parent of 7a5e609... Cleanups using chktex
