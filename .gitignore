@@ -43,6 +43,7 @@ WSUThesisTemplate.synctex.gz
 *.fls
 *.fdb_latexmk
 .latex*
+*.rel
 
 
 # Distribution / packaging
