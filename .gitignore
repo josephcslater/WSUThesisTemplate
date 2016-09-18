@@ -45,6 +45,21 @@ WSUThesisTemplate.synctex.gz
 .latex*
 *.rel
 
+*.bib
+!thesisBIB.bib
+
+*.sty
+!WSU.sty
+!mcode.sty
+!beamerthemeWrightState.sty
+
+*.pdf
+!example.pdf
+!WSUThesisTemplate.pdf
+!WrightStateTheme.pdf
+!WrightStateTheme.tex
+!WSU.pdf
+
 
 # Distribution / packaging
 .Python
