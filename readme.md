@@ -160,7 +160,7 @@ The package includes a presentation template which you may choose to use.
   [LyX]: http://www.lyx.org
   [CocoAspell]: http://ict.usc.edu/~leuski/cocoaspell/
   [aspell for Windows]: http://aspell.net/win32/
-  [LanguageTool]: https://languagetool.org
+  [LanguageTool]: https://languagetool.org/
   [a number of ways to make presentations]: http://www.miwie.org/presentations/presentations.html
   [WSU School of Graduate Studies Guidelines]: http://www.wright.edu/sogs/thesis/format.html
   [CTAN]: http://www.ctan.org/
