@@ -140,7 +140,7 @@ wrong choice.
 Checking Grammar
 ================
 
-[LanguageTool] (follow instructions to install and run) can be used on
+[LanguageTool] can be used on
 any platform with Java 5.0 or later installed. Be aware that it provides
 suggestions. Just like spelling, it is helpful in finding potential
 errors, not actual errors, and will often provide bad suggestions, just
