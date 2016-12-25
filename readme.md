@@ -5,7 +5,7 @@ The LaTeX file itself should be self-documenting, so the user is left
 to their own to edit it and modify it with the contents of their
 thesis/dissertation. There is a bit of demoing of LaTeX that happens
 in the document, but no claims are made that it is sufficient to teach
-LaTeX. A rather [dry video of me walking through the template](https://www.youtube.com/watch?v=6XnMzmFH_u0) can be found on youtube. Recent updates should preclude the need to touch the style
+LaTeX. A rather [dry video of me walking through the template](https://youtu.be/6XnMzmFH_u0) can be found on youtube. Recent updates should preclude the need to touch the style
 file. Please feed your corrections to me!
 
 Use this and you will have a consistent document that meets Wright State University
