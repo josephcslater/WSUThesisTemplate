@@ -1,17 +1,17 @@
 # Wright State University LaTeX thesis/dissertation style file
-This repository contains a set of files for LaTeX users writing thesis or dissertations at *Wright State University*. There are a number of other WSUs. I apologize.
+This repository contains a set of files for LaTeX users writing thesis or dissertations at *Wright State University*. There are a number of other WSUs.
 
 The LaTeX file itself should be self-documenting, so the user is left
 to their own to edit it and modify it with the contents of their
 thesis/dissertation. There is a bit of demoing of LaTeX that happens
 in the document, but no claims are made that it is sufficient to teach
-LaTeX. Recent updates should preclude the need to touch the style
+LaTeX. A rather [dry video of me walking through the template](https://www.youtube.com/watch?v=6XnMzmFH_u0) can be found on youtube. Recent updates should preclude the need to touch the style
 file. Please feed your corrections to me!
 
 Use this and you will have a consistent document that meets Wright State University
-guidelines. Don’t add your own formatting. Use only *structure* commands. For instance, *\emph* instead of *\textit*. 
+guidelines. Don’t add your own formatting. Use only *structure* commands. For instance, *\emph* instead of *\textit*.
 
-If you find bugs, the best thing to to is fork the repository, correct the issue, then submit a pull request so that the template and other files may be improved. Incorporating your corrections is the best way to thank me and others who have worked on this so far. 
+If you find bugs, the best thing to to is fork the repository, correct the issue, then submit a pull request so that the template and other files may be improved. Incorporating your corrections is the best way to thank me and others who have worked on this so far.
 
 Every effort has been made to meet the Wright State University School of Graduate Studies Guidelines,
 and this template may actually be good enough, however no warrantee is
@@ -144,7 +144,7 @@ Checking Grammar
 any platform with Java 5.0 or later installed. Be aware that it provides
 suggestions. Just like spelling, it is helpful in finding potential
 errors, not actual errors, and will often provide bad suggestions, just
-like MSWord. You have to be a competent judge, or you have to find one. 
+like MSWord. You have to be a competent judge, or you have to find one.
 
 Making Presentations (in LaTeX)
 ===============================
@@ -154,7 +154,7 @@ easily. All the useful parts of PowerPoint without the garbage. In most
 cases you make PDF files from your latex document. Buttons, and
 incremental displays, and… can be set up.
 
-The package includes a presentation template which you may choose to use. 
+The package includes a presentation template which you may choose to use.
 
   [TeX on Windows]: http://mactex-wiki.tug.org/wiki/index.php?title=TeX_on_Windows
   [LyX]: http://www.lyx.org
