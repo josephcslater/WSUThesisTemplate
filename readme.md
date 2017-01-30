@@ -55,7 +55,7 @@ at first, so a good place to start is with a tutorial such at [the one
 at Harvey Mudd College] and [the one at Duke]. Yes, you may think you
 can do this as well in Excel, but the reality is the cartoony plots in
 Excel look good in brochures and business presentations, not
-engineering, math and science technical papers. There are many other options out there. Look to see what is being used by serious programmers, but you also have to weigh that against the value of your time. I've personally gravitated toward [matplotlib] in [python].
+engineering, math and science technical papers. There are many other options out there. Look to see what is being used by serious programmers, but you also have to weigh that against the value of your time. I've personally gravitated toward [matplotlib] in [Python].
 
 
 Back to LaTeX:
@@ -176,6 +176,7 @@ The package includes a presentation template which you may choose to use.
   [the one at Harvey Mudd College]: http://www.cs.hmc.edu/~vrable/gnuplot/using-gnuplot.html
   [the one at Duke]: http://www.duke.edu/~hpgavin/gnuplot.html
   [python]: http://www.python.org
+  [Python]: http://www.python.org
   [matplotlib]: http://matplotlib.org
   [TeX on Mac Wiki]: http://mactex-wiki.tug.org
   [MacTeX]: https://tug.org/mactex/
