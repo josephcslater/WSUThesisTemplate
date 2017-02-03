@@ -16,7 +16,10 @@
 \usepackage{bigstrut} % used for tables to set spacing
 \usepackage{graphicx} % used for includegraphics
 \usepackage{subfigure} % allows the use of subfigures
-\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode} % used to insert code
+%\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode} % used to insert code
+\usepackage{listings}
+
+
 %
 %
 %
@@ -402,9 +405,11 @@ Using the \verb'booktabs' package makes very professional looking tables by vary
 %=============================
 \clearpage \section{Inserting Code}
 %=============================
-If you want to insert code you can use the \verb'mcode' package.  You can choose to between several options to frame, have numbered lines, automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
+If you want to insert code into your document by reference, instead of copy/paste, you even use the \href{https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings}{listings} package.  
 
-\lstinputlisting{importfile.m}
+\href{http://www.mathworks.com}{Matlab} users may find the simpler interface of the \verb'mcode' package easier.  To do that simply comment the \verb'\usepackage{listings}' line near the top of this (the \verb'.tex') document and uncomment the preceding line. You can choose to between several options to frame, have numbered lines, automatic line breaks and more.  Below is an example of listing a MATLAB\textsuperscript{\textregistered} m-file.
+
+\lstinputlisting[language=matlab, basicstyle=\linespread{1}\normalsize]{importfile.m}
 
 %=============================
 \chapter[Programs]{Typesetting Programs using \LaTeX\ }
