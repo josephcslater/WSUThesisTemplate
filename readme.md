@@ -91,20 +91,13 @@ the latest documents. Send me the new file and I’ll post it.
 
 My current recommendations are to use:
 
-1.  JabRef (Editing Bibliography database)
-2.  Either MikTeX or TeXLive (I don’t have enough to make
+1.  [JabRef] (Editing Bibliography database)
+2.  Either [MikTeX] or [TeXLive] (I don’t have enough knowledge to make
     a recommendation)
-3.  TeXnicCenter (Includes built-in spell checker. See Options:Spelling.
-    Select Check Spelling while typing) Forward and inverse search
-    work automatically. Double click in Yap to go to that point in
-    your editor. F5 in TeXnicCenter to go to that point in your
-    dvi file. Windows users should use LaTeX-&gt;DVI until this works
-    for PDFs. You can use LaTeX-&gt;PDF to directly make a PDF document
-    (and should, because any other way makes a messy document).
-    \\usepackage{times} is a good idea.
-4.  Ghostscript (you may want to use it to convert ps files to
-    eps files)
-5.  Adobe Acrobat Reader
+3.  [texstudio]
+4.  [Ghostscript] (you may want to use it to convert ps files to
+    eps or pdf files)
+5.  Adobe Acrobat Reader or another PDF viewer.
 
 Go to [TeX on Windows] for links.
 
@@ -123,10 +116,11 @@ There are 3 cloud-based LaTeX editors that I am familiar with.
 
 I have highly respected colleagues that swear by [Overleaf]. I don't have a lot of experience with it yet, but it's certainly on my radar. In fact, the WSU Thesis Template is already on [Overleaf] ready to go.
 
-Overleaf provides *typeset as you go* which is very cool.
+[Overleaf] provides *typeset as you go* which is very cool.
+
+Because the files are in the cloud, some operations are different from using a local application. See [How to include a bibliography using bibtex]. Frankly, the easiest way is to maintain your database on [Zotero].
 
 ## Graphical User Interface (GUI) Version (Multi-platform)
-
 
 [LyX] is something like a GUI version that is easier for a novice to work on, but can be somewhat limiting for someone comfortable with more power available only when editing the raw LaTeX. Dr. Klingbeil is a strong fan of it, but I find directly typing formulas and macros using a dedicated LaTeX editor (Emacs is my favorite) to be much faster. If LaTeX is intimidating to you, use LyX. It still provides most of the benefits over Word (better cross referencing, cleaner/professional looking output). However, I’m not familiar with using my style file with it (or if it’s even possible). However, Jeremy Daily did his dissertation in LyX just fine.
 
@@ -183,3 +177,10 @@ The package includes a presentation template which you may choose to use.
   [TeX on Mac Wiki]: http://mactex-wiki.tug.org
   [MacTeX]: https://tug.org/mactex/
   [LaTeX-Tutorial]: https://www.latex-tutorial.com
+  [JabRef]: http://www.jabref.org
+  [MikTeX]: www.miktex.org
+  [TeXLive]: https://www.tug.org/texlive/
+  [texstudio]: www.texstudio.org
+  [Ghostscript]: https://www.ghostscript.com/download/gsdnld.html
+  [How to include a bibliography using bibtex]: https://www.overleaf.com/help/97-how-to-include-a-bibliography-using-bibtex#.WfuMP9vMw4M
+  [Zotero]: www.zotero.org
