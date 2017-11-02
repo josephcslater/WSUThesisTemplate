@@ -110,7 +110,21 @@ Go to [TeX on Windows] for links.
 ### Mac Users
 Look at the [TeX on Mac Wiki] and at [MacTeX].
 
-## Graphical User Interface (GUI) Version
+### Cloud-based tools
+
+There are 3 cloud-based LaTeX editors that I am familiar with.
+
+- [ShareLaTeX]
+- [Overleaf]
+- [Cloud LaTeX]
+
+[ShareLaTeX] and [Overleaf] have merged. For all practical purposes, I think [Overleaf] is the way to go. Eventually they will be identical. [Cloud LaTeX] is newer and I have even less experience with it.
+
+I have highly respected colleagues that swear by [Overleaf]. I don't have a lot of experience with it yet, but it's certainly on my radar. In fact, the WSU Thesis Template is already on [Overleaf] ready to go.
+
+Overleaf provides *typeset as you go* which is very cool.
+
+## Graphical User Interface (GUI) Version (Multi-platform)
 
 
 [LyX] is something like a GUI version that is easier for a novice to
@@ -174,6 +188,9 @@ The package includes a presentation template which you may choose to use.
   [archiving your data]: http://josephcslater.github.io/archiving-and-plotting-data.html
   [gnuplot]: http://www.gnuplot.info/
   [the one at Harvey Mudd College]: http://www.cs.hmc.edu/~vrable/gnuplot/using-gnuplot.html
+  [Cloud LaTeX]: https://cloudlatex.io
+  [Overleaf]: https://www.overleaf.com
+  [ShareLaTeX]: https://www.sharelatex.com/
   [the one at Duke]: http://www.duke.edu/~hpgavin/gnuplot.html
   [python]: http://www.python.org
   [Python]: http://www.python.org
