@@ -76,6 +76,7 @@ LaTeX. Pick and choose as you need. Get the more updated documents from
 [CTAN] (look for the dtx or tex file in the appropriate package) to get
 the latest documents. Send me the new file and I’ll post it.
 
+-   [LaTeX-Tutorial]
 -   [AMS LaTeX (How to do Math, AMS User Guide)]
 -   [Gentle Introduction to TeX]
 -   [Graphics Package]
@@ -127,24 +128,12 @@ Overleaf provides *typeset as you go* which is very cool.
 ## Graphical User Interface (GUI) Version (Multi-platform)
 
 
-[LyX] is something like a GUI version that is easier for a novice to
-work on, but can be somewhat limiting for someone comfortable with more
-power available only when editing the raw LaTeX. Dr. Klingbeil is a
-strong fan of it, but I find directly typing formulas and macros using a
-dedicated LaTeX editor (Emacs is my favorite) to be much faster. If
-LaTeX is intimidating to you, use LyX. It still provides most of the
-benefits over Word (better cross referencing, cleaner/professional
-looking output). However, I’m not familiar with using my style file with
-it (or if it’s even possible). However, Jeremy Daily did his
-dissertation in LyX just fine.
+[LyX] is something like a GUI version that is easier for a novice to work on, but can be somewhat limiting for someone comfortable with more power available only when editing the raw LaTeX. Dr. Klingbeil is a strong fan of it, but I find directly typing formulas and macros using a dedicated LaTeX editor (Emacs is my favorite) to be much faster. If LaTeX is intimidating to you, use LyX. It still provides most of the benefits over Word (better cross referencing, cleaner/professional looking output). However, I’m not familiar with using my style file with it (or if it’s even possible). However, Jeremy Daily did his dissertation in LyX just fine.
 
 Checking Spelling
 =================
 
-There is no excuse for not checking spelling in your latex document.
-Note that you cannot blindly believe whatever the spell checker says.
-Words such as “there” and “their” can be spelled correctly but be the
-wrong choice.
+There is no excuse for not checking spelling in your latex document. Note that you cannot blindly believe whatever the spell checker says. Words such as “there” and “their” can be spelled correctly but be the wrong choice.
 
 1.  Mac users: Use [CocoAspell]
 2.  Windows users: Use [aspell for Windows]
@@ -154,11 +143,7 @@ wrong choice.
 Checking Grammar
 ================
 
-[LanguageTool] can be used on
-any platform with Java 5.0 or later installed. Be aware that it provides
-suggestions. Just like spelling, it is helpful in finding potential
-errors, not actual errors, and will often provide bad suggestions, just
-like MSWord. You have to be a competent judge, or you have to find one.
+[LanguageTool] can be used on any platform with Java 5.0 or later installed. Be aware that it provides suggestions. Just like spelling, it is helpful in finding potential errors, not actual errors, and will often provide bad suggestions, just like MSWord. You have to be a competent judge, or you have to find one.
 
 Making Presentations (in LaTeX)
 ===============================
@@ -197,3 +182,4 @@ The package includes a presentation template which you may choose to use.
   [matplotlib]: http://matplotlib.org
   [TeX on Mac Wiki]: http://mactex-wiki.tug.org
   [MacTeX]: https://tug.org/mactex/
+  [LaTeX-Tutorial]: https://www.latex-tutorial.com
