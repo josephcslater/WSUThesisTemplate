@@ -1,6 +1,6 @@
-# Short Course- Writing Your Thesis/Dissertation in [LaTeX][]
+# Short Course: Writing Your Thesis/Dissertation in [LaTeX][]
 
-In order to get the most out of this class you need to be ready to go in the
+In order to get the most out of this class you need to be ready-to-go in the
 classroom.
 
 To do this, please perform the following steps on your laptop and bring it to
@@ -10,7 +10,18 @@ class.
 2.  Install [TeXStudio][]
 3.  Install [JabRef][]
 4.  Install [LyX][]
+5.  Download the [Wright State University LaTeX Thesis Template][]. (Click on the Green button)
+6.  Expand that file and:
+    *   Make a copy of ``WSUThesisTemplate.tex``
+    *   Edit your copy of the file in [TeXStudio][]
+    *   Make a copy of ``thesisBIB.bib``
+    *   Edit your copy of the file in [JabRef][]
+7.  Watch [my video][]. It may also help with insomnia.
 
+Should you do all of this, you will show me in class and hopefully your instructor will let you leave early. If not, I will help you get everything working. 
+
+[my video]: https://www.youtube.com/watch?v=6XnMzmFH_u0&t=2607s
+[Wright State University LaTeX Thesis Template]: https://github.com/josephcslater/WSUThesisTemplate
 [TeX on Windows]: http://mactex-wiki.tug.org/wiki/index.php?title=TeX_on_Windows
 [LyX]: http://www.lyx.org
 [CocoAspell]: http://ict.usc.edu/~leuski/cocoaspell/
