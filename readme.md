@@ -145,6 +145,8 @@ incremental displays, and… can be set up.
 
 The package includes a presentation template which you may choose to use.
 
+Like this module, `buy me a coffee! <https://www.buymeacoffee.com/s6BCSuEiU>`_
+
   [TeX on Windows]: http://mactex-wiki.tug.org/wiki/index.php?title=TeX_on_Windows
   [LyX]: http://www.lyx.org
   [CocoAspell]: http://ict.usc.edu/~leuski/cocoaspell/
