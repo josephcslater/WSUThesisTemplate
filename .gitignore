@@ -117,3 +117,7 @@ docs/_build/
 target/
 
 *.gz
+#WSUThesisTemplate.lyx#
+thesisBIB.bib.sav
+WSUThesisTemplate_2.bbl
+#WSUThesisTemplate.lyx#
