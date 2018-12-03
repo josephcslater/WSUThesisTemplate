@@ -57,10 +57,12 @@
 %-----------------------------------------------------------------------
 \newcommand{\thesisdirector}{Advisor's Name}
 \newcommand{\thesisdirectortitle}{Ph.D., P.E., Get all of these right!}
-\newcommand{\phdProgrameOrDeptChair}{Frank W. Ciarallo} % CHANGE TO: Joseph C. Slater FOR MASTER THESIS
-\newcommand{\phdProgrameOrDeptChairEducation}{Ph.D.} % CHANGE TO: Ph.D., P.E. FOR MASTER THESIS
-\newcommand{\phdProgrameOrDeptChairTitle}{Director, Ph.D. in Engineering Program} % CHANGE TO: Chair, Department of Mechanical and \\ Materials Engineering FOR MASTER THESIS
-% COMMENT THE FOLLOWING 3 LINES FOR MASTER THESIS. PLEASE NOTE THAT FOR MASTER THESIS YOU SHOULD USE "\masterSignaturePage" AND FOR PHD DISSERATIO "\phdSignaturePage" IN THE "approval sheet" SECTION.
+\newcommand{\phdProgrameOrDeptChair}{Frank W. Ciarallo} % CHANGE TO: Faculty M. Name FOR MASTER THESIS
+\newcommand{\phdProgrameOrDeptChairEducation}{Ph.D.} % CHANGE TO: Ph.D., P.E. ETC
+\newcommand{\phdProgrameOrDeptChairTitle}{Director, Ph.D. in Engineering Program} % CHANGE TO: Chair, Department of Mechanical and \\ Materials Engineering FOR MASTER THESIS in MME
+
+
+% COMMENT THE FOLLOWING 3 LINES FOR MASTER THESIS. PLEASE NOTE THAT FOR MASTER THESIS YOU SHOULD USE "\masterSignaturePage" AND FOR PHD DISSERATION "\phdSignaturePage" IN THE "approval sheet" SECTION.
 \newcommand{\graduateSchoolDean}{Barry Milligan}
 \newcommand{\graduateSchoolDeanEducation}{Ph.D.}
 \newcommand{\graduateSchoolDeanTitle}{Interim Dean of the Graduate School}
@@ -121,8 +123,9 @@
 \thispagestyle{empty}
 \renewcommand\baselinestretch{2}
 \begin{singlespace}
-%\masterSignaturePage      % USE FOR MASTER THESIS
-\phdSignaturePage\        % USE FOR PHD DISSERATION
+\masterSignaturePage\newpage     % USE FOR MASTER THESIS
+You don't need both signature pages. Please comment out unnecessary lines in the .tex file. \newpage
+\phdSignaturePage\newpage        % USE FOR PHD DISSERTATION
 \end{singlespace}
 %
 %=============================
