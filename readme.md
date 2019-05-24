@@ -1,4 +1,7 @@
 # Wright State University LaTeX thesis/dissertation style file
+
+**Please Note**: *This version is no longer being maintained. Please see the [fork maintained by Mike Raymer](https://github.com/mraymer/WSUThesisTemplate)*.
+
 This repository contains a set of files for LaTeX users writing thesis or dissertations at *Wright State University*. There are a number of other WSUs.
 
 The LaTeX file itself should be self-documenting, so the user is left
